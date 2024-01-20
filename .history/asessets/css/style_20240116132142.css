@@ -1,0 +1,43 @@
+/* 
+=======================================================
+          public styles
+======================================================= */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aquamarine;
+  font-family: "Josefin Sans", sans-serif;
+  color: #141517;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  .row {
+    flex-flow: column wrap;
+  }
+}
+
+/* 
+=====================================================
+            end public styles
+=====================================================
+ */
+
+/* ===============
+        navbar
+ ================= */
+.header {
+}

@@ -1,0 +1,66 @@
+/* 
+=======================================================
+          public styles
+======================================================= */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aquamarine;
+  font-family: "Josefin Sans", sans-serif;
+  color: #141517;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  .row {
+    flex-flow: column wrap;
+  }
+}
+
+/* 
+=====================================================
+            end public styles
+=====================================================
+ */
+
+/* ===============
+        navbar
+ ================= */
+.header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  padding: 20px 30px;
+}
+.header .logo img {
+  width: 100%;
+}
+.header .nav {
+}
+.header .nav .nav-list {
+}
+.header .nav .nav-list li {
+}
+.header .nav .nav-list li a {
+}
+.header .nav .nav-list li a {
+}
+.header .nav .list-item .dropdown-list {
+}
+.header .nav .list-item .dropdown-list li {
+}
+.header .nav .list-item .dropdown-list a {
+}
