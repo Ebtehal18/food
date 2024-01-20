@@ -640,7 +640,7 @@ p {
 }
 @media (max-width: 420px) {
   .menu .menu-heading .list-menu li:first-child a {
-    padding: 11px;
+    padding: 10px;
   }
 }
 @media (max-width: 360px) {
@@ -654,7 +654,7 @@ p {
     margin-bottom: 30px;
   }
   .menu .menu-heading .list-menu li:first-child a {
-    padding: 11px;
+    padding: 10px;
   }
 }
 
